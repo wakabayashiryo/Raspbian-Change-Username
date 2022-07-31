@@ -35,7 +35,8 @@ SSHのIPは192.168.0.1
     - ### "user pi is currently used by process ***"と表示されたら
         > sudo kill ***
         
-        と入力してpi権限のプロセスを停止させる
+        と入力してpi権限のプロセスを停止させる   
+        [raspbianでpiユーザを削除できない。](https://ja.stackoverflow.com/questions/17070/raspbian%E3%81%A7pi%E3%83%A6%E3%83%BC%E3%82%B6%E3%82%92%E5%89%8A%E9%99%A4%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84)
 
     usermod -dでホームディレクトリを/home/piから/home/pi2に変更    
     > sudo usermod -d /home/pi2 -m pi2   
